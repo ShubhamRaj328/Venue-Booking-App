@@ -8,7 +8,7 @@ def connect_db():
             host="localhost", 
             user="root", 
             password="password", 
-            database="venue_booking"
+            database="venue_booking_system"
         )
     except mysql.connector.Error as err:
         messagebox.showerror("Database Connection Error", f"Unable to connect to the database: {err}")
